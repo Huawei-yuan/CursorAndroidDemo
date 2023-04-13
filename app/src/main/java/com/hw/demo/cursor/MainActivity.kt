@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+/**
+ * 快速排序
+ */
 fun quickSort(list: List<Int>): List<Int> {
     if (list.size < 2) {
         return list
